@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluate Value</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="conatiner">
+        <!-- palindrome -->
+        <div class="facts">
+            <h1>Get Factorial Of Number</h1>
+            <input type="number" id="fnum" placeholder="Enter number Here"><br>
+            <span id="factout"></span><br>
+            <button onclick="calFactorial()">calculate factorial</button>
+            <hr>
+        </div>
+
+        <!--  -->
+        <div class="fibs">
+            <h1>Get fibonancci Series</h1>
+            <input type="number" id="fbnum" placeholder="Enter number Here"><br>
+            <span id="fibout"></span><br>
+            <button onclick="calFibonacci()">Get fibonancci Series</button>
+            <hr>
+        </div>
+
+        <div class="pals">
+            <h1>Check Palindrome String</h1>
+            <input type="text" id="pstr" placeholder="Enter text/string Here"><br>
+            <span id="palout"></span><br>
+            <button onclick="checkPalindrome()">Check palindrome</button>
+            <hr>
+        </div>
+    </div>
+    <script src="eval.js"></script>
+</body>
+
+</html>
